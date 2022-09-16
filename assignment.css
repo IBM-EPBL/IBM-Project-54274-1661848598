@@ -1,0 +1,61 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:box-border;
+}
+body{
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	height:100vh;
+	background:powderblue;
+	background-image:url("../images/.jpg");
+}
+h3{
+	
+	text-align: center;
+	color:powderblue;
+	margin:15px;
+	width:300px;
+	background:white;
+	margin:0px auto;
+	border-radius:20px;
+	margin-top:10px;
+	box-shadow:10px 10px 10px black, -10px -10px 40px grey;
+}
+.container{	
+	width:700px;
+	background-image:url("../images/cpu.jpg");
+	border-radius:20px;
+	box-shadow:20px 20px 10px black, -10px -10px 40px white;
+}
+form{
+	margin-left:70px;
+	
+}
+
+label{
+	font-size:20px;
+	width:100px;
+	display:inline-block;
+	letter-spacing:2px;
+	line-height:30px;
+	color:white;
+	
+}
+.word{
+	padding:0px 0px 0px 10px;
+	font-family:armenian, sans-serif;
+	border-radius:15px;
+	border:2px black solid;
+	
+}
+.btn{
+	padding:5px;
+	margin:5px;
+	margin-left:230px;
+	color:white;
+	background:black;
+	border-radius:15px;
+	cursor:pointer;
+}
